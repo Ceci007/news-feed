@@ -1,0 +1,28 @@
+.white-anchor {
+  color: #fff;
+  text-decoration: none;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: space-between;
+  height: 22rem !important;
+}
+
+.button {
+  display: block;
+  //order: 1;
+  // flex: 0 0 100%;
+  position: absolute;
+  bottom: 0.8rem;
+  left: -4rem;
+}
+
+.card-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
