@@ -5,7 +5,6 @@ import { createGlobalStyle } from "styled-components";
 import Header from "../Header";
 import Nav from "../Nav";
 import Home from "../../pages/Home";
-import Category from "../../pages/Category";
 
 class App extends Component {
   render() {
@@ -17,7 +16,6 @@ class App extends Component {
           <Nav />
           <Switch>
             <Route path="/" component={Home} />
-            <Route path="/categorias/:category" component={Category} />
             <Route path="/search" component={Home} />
           </Switch>
         </Container>
