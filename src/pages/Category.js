@@ -29,7 +29,7 @@ class Category extends Component {
 
   async fetchCategoriesNews() {
     const { category } = this.props.match.params;
-    const categoryId = categoriesId[category];
+    const categoryId = categoriesId[category].id;
 
     this.setState({ isLoading: true });
 
